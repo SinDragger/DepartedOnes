@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e4a4f35c35c8a04cb8784c942e3f7b7, type: 3}
+  m_Name: NoiseGenerator
+  m_EditorClassIdentifier: 
+  saveToDiskPath: Assets/Res/Graphic/Texture/PerlinNoise
+  resolution: 256
+  resolutionZ_3D: 64
+  frequency: 4
+  is3D: 0
+  isTilable: 0
+  randomSeed: 56.128445
+  autoReseed: 1
+  evolution: {x: 0, y: 0, z: 0}
+  compression: 0
+  fbmIteration: 0
+  remapTo01: 0
+  invert: 0
+  changeContrast: 0
+  contrast: 1
+  cs_core: {fileID: 7200000, guid: 54392211e98789149b442209d9360b6b, type: 3}
+  cs_postProcess: {fileID: 7200000, guid: 0216beb932e9f8d4b98c845efe82a4b5, type: 3}
+  previewTexture2D: {fileID: 0}
+  previewTexture3D: {fileID: 0}

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<data>
+	<StandardStatus name="LoneWolfTroop">
+		<name>孤军奋战</name>
+		<describe>不依赖友军的战士在独自对敌中更加无畏善战</describe>
+		<effectDescribe>战斗开始时，敌人的数量高于我方1.5倍时，攻击+4，防御+4</effectDescribe>
+		<activeEffect>
+			<ChangeAttackSpeed>
+				<speed>0.5</speed>
+			</ChangeAttackSpeed>
+		</activeEffect>
+	</StandardStatus>
+	<StandardStatus name="MilitarySwordArt">
+		<name>军用剑术</name>
+		<describe>战争中凝练出的剑术已传承数百年，异怪与巨兽亦是假想敌</describe>
+		<effectDescribe>使用剑类武器时，命中+2，防护+2。</effectDescribe>
+		<activeEffect>
+			<ChangeUnitData>
+				<hitRate>2</hitRate>
+				<defendLevel>4</defendLevel>
+			</ChangeUnitData>
+		</activeEffect>
+	</StandardStatus>
+	<StandardStatus name="FurorWarrior">
+		<name>战斗狂热</name>
+		<describe>渴求进攻与厮杀，以无间歇的攻击摧毁防御</describe>
+		<effectDescribe>攻击速度+0.3，命中-2。</effectDescribe>
+		<activeEffect>
+			<ChangeAttackSpeed>
+				<speed>0.5</speed>
+			</ChangeAttackSpeed>
+		</activeEffect>
+	</StandardStatus>
+	<StandardStatus name="HomeLandPlain">
+		<name>故土·平原</name>
+		<describe>在熟悉的地形作战时，步伐轻快且适应战斗</describe>
+		<effectDescribe>战场位于平原时，移动速度+0.2。</effectDescribe>
+		<activeEffect>
+			<ChangeAttackSpeed>
+				<speed>0.5</speed>
+			</ChangeAttackSpeed>
+		</activeEffect>
+	</StandardStatus>
+	<StandardStatus name="Braver">
+		<name>勇猛</name>
+		<describe>劣势越大越能激发斗志，投身于战斗之中</describe>
+		<effectDescribe>战场位于平原时，移动速度+0.2。</effectDescribe>
+		<activeEffect>
+			<ChangeAttackSpeed>
+				<speed>0.5</speed>
+			</ChangeAttackSpeed>
+		</activeEffect>
+	</StandardStatus>
+</data>

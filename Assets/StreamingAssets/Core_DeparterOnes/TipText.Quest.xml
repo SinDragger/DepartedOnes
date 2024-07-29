@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<data>
+	<TipText name = "Start_EnterBuilding">
+		<containText>你还记得过去战场所在的地方
+往昔的武器也应该埋在那
+纵使破旧不堪，也比赤手空拳好</containText>
+	</TipText>
+	<TipText name = "End_EnterBuilding">
+		<containText>足够了，这些武器够支撑住整场地区战役
+更别提清剿那些食人恶兽了。
+			
+解锁-部队装备切换
+		</containText>
+	</TipText>
+	<TipText name = "Start_HuntWolfs">
+		<containText>狼群肆虐，从野兽巢穴之中游荡而出。
+危险但适合作为训练指挥协同进攻的对象。
+它们的骸骨更能补完兵士躯壳上的裂缝。
+		</containText>
+	</TipText>
+	<TipText name = "End_HuntWolfs">
+		<containText>
+			野兽巢穴不剿灭的话，哺育出的食人狼群便会源源不断
+		</containText>
+	</TipText>
+
+	<TipText name = "Start_RaiseUnit">
+		<containText>魂灵们顺着誓约印记归于你。
+它们不肯散去，即便流转、战斗的意愿依然高昂。
+
+解锁-亡者召唤</containText>
+	</TipText>
+	<TipText name = "End_RaiseUnit">
+		<containText>破碎的骸骨重组，塑形
+微弱的火苗受你点燃后充斥颅骨
+战士们正在归来，屈居于孱弱的躯壳</containText>
+	</TipText>
+
+	<TipText name = "Start_ExpandArmy">
+		<containText>埃铎斯施法者们精通岩石与流水的术法
+骨骼即是人之四元素中的岩石
+此前那些食人恶兽的骸骨就够为它们重赋形体了
+
+解锁‘白骨骷髅’亡者复生</containText>
+	</TipText>
+
+	<TipText name = "Start_EliminateCave">
+		<containText>这些杀戮你子民的野兽一定有所巢穴定居
+它们来时的足迹深入密林深处
+小心潜藏的恶兽们、不要冒进</containText>
+	</TipText>
+	<TipText name="Start_EnterVilage">
+		<containText>一阵源自灵魂的刺痛拽住了你
+西南侧的远方天空，正飘荡着建筑物燃烧而出的黑烟
+无辜者在受难！
+		</containText>
+	</TipText>
+	<TipText name="Chapter1.Main11">
+		<containText>赶到的时候村中已是火光漫天
+从未见过的打着赤色埃铎斯旗帜的兵士们在夷灭村庄
+“不要放走了任何一人！”领队屠戮着、呼喊着
+这是不可接受之事，你拔出了剑</containText>
+	</TipText>
+	<TipText name="Chapter1.Main12">
+		<containText>死者的灵魂向你低语诉说
+加害者是埃铎斯人、受害者也是埃铎斯人
+这是一场可怕的内战，已然连绵十载
+现今就连无辜中立者都被视作双边的敌人</containText>
+	</TipText>
+	<TipText name="Start_WorkWork">
+		<containText>万幸，一些村民被你们拯救了下来
+纵使已成一群骸骨的军队，也不会认错你的剑与旗帜
+他们的家园已经没了，话事长者怀揣着希望请求庇护
+保护他们不是个困难抉择，但他们也有义务需要履行</containText>
+	</TipText>
+</data>

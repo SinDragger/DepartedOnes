@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<data>
+	<ForceData name="NEUTRAL">
+		<id>0</id>
+		<name>中立</name>
+		<recognizeColor>6F6F6F</recognizeColor>
+	</ForceData>
+	<ForceData name="DEPART_ONES">
+		<id>1</id>
+		<name>埃铎斯</name>
+		<nickName>逝亡者</nickName>
+		<mainSpecies>Skeleton</mainSpecies>
+		<ableSpecies>
+			Human
+			Skeleton
+			Zombie
+		</ableSpecies>
+		<ableSubSpieces>
+			Edos_Warrior
+			White_Bone_Skeleton
+		</ableSubSpieces>
+		<ableUnitDatas>
+			DriedSkeleton
+			SkeletonWolf
+			SkeletonArcher
+			AxeSheildZombie
+			GhostSwordGuard
+			BlackKnight
+			TestLancer
+			TestFWizard
+			TestMSoldier
+			DemonWolf
+			TestNSoldier
+			NoArmourArcher
+			DemonHunter
+			Paladin
+		</ableUnitDatas>
+		<buyableUnitDatas>
+			DriedSkeleton
+			SkeletonArcher
+			SkeletonWolf
+			AxeSheildZombie
+		</buyableUnitDatas>
+		<ableWeaponEquipSets>
+			BareHand
+			T_Pike
+			Weapon_Bow
+		</ableWeaponEquipSets>
+		<ableArmourEquipSets>
+			TestMilitia
+			Cloth
+		</ableArmourEquipSets>
+		<recognizeColor>005AC5</recognizeColor>
+		<basicUnlimitedWeaponIds>
+			Pike_Broken
+			AxeSheild_Broken
+			Sword_Broken
+		</basicUnlimitedWeaponIds>
+	</ForceData>
+	<ForceData name="EDOS_LORD_PROTECTOR">
+		<id>2</id>
+		<name>西·埃铎斯</name>
+		<nickName>大公军</nickName>
+		<recognizeColor>B7001B</recognizeColor>
+		<ableUnitDatas>
+			DriedSkeleton
+			SkeletonPeasant
+		</ableUnitDatas>
+	</ForceData>
+	<ForceData name="EDOS_AUTONOMOUS_CONSOTIUM">
+		<id>3</id>
+		<name>东·埃铎斯</name>
+		<nickName>勇者军</nickName>
+		<recognizeColor>DBB944</recognizeColor>
+	</ForceData>
+</data>

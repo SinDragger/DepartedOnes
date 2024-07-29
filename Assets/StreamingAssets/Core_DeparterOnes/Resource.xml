@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<data>
+	<Resource name="WOOD">
+		<name>木材</name>
+	</Resource>
+	<Resource name="ORE">
+		<name>矿物</name>
+	</Resource>
+	<Resource name="CRYSTAL">
+		<name>晶体</name>
+	</Resource>
+	<Resource name="STEEL">
+		<name>钢铁</name>
+		<workLoad>5</workLoad>
+		<cost>
+			<EntityStack>
+				<idName>ORE</idName>
+				<num>2</num>
+			</EntityStack>
+		</cost>
+	</Resource>
+	<Resource name="FUR">
+		<name>兽皮</name>
+	</Resource>
+	<Resource name="LEATHER">
+		<name>硬革</name>
+		<workLoad>2</workLoad>
+		<cost>
+			<EntityStack>
+				<idName>FUR</idName>
+				<num>2</num>
+			</EntityStack>
+		</cost>
+	</Resource>
+	<Resource name="SOUL">
+		<name>灵魂</name>
+	</Resource>
+	<Resource name="BONE">
+		<name>骸骨</name>
+	</Resource>
+</data>

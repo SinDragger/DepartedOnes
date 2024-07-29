@@ -1,0 +1,35 @@
+DialogueBox 321321
+NameShow 艾伯特
+DialogueShow “得快点堵上门，狼群很快就会追上来，西亚人呢！来搭把手。”（发现大家没人回应有些疑惑了，看向后方）【头上先冒问号，随后翻转模型，人物跳动一下，冒感叹号。】
+ClossDialogueBox 
+EmojiBox 123123,CryEmotion
+DialogueBox 321321
+DialogueShow “西亚，你都做了些什么！！！”（震惊-略带责怪）
+NameShow 西亚
+DialogueShow “我只是想……找能派上用场的武器……啊，找到了.”（震惊-下意识反驳，模型持剑）
+NameShow 艾伯特
+DialogueShow “嘘，趁他还没动作，快退后！”【西亚辉剑作威胁状后退（待定），其他小朋友开始慢慢远离玩家】
+NameShow 伊恩
+DialogueShow “是亡灵。可、根据周围的石碑来看，这还是四王子的尸骸啊……天呐”（一遍翻包一边匆忙地解释）
+NameShow 玩家
+DialogueShow （亡灵？我？尸骸？…）【玩家头上冒问号】
+NameShow 年幼的孩子
+DialogueShow “外面有狼，里面又出这事儿…我们要死掉啦！”（哇的一声大哭）【其他小朋友也有些慌乱。】
+NameShow 普通孩子A
+DialogueShow “所以就不该来墓穴避难啊！”
+NameShow 艾伯特
+DialogueShow “这是我们能找到最好的庇护地了……快点所有人躲在我的身后！”【年长者挡在前面，随后其他人躲在他身后】（从后面传出狼的低吼）
+NameShow 普通孩子C
+DialogueShow “狼冲进来啦！！！你们准备好没！快把门堵上！”（冲进来后，慌张害怕）·
+NameShow 艾伯特
+DialogueShow “我们还没来得及……”（手里拿着木棍，回头看到西亚手里的剑，）
+NameShow 伊恩
+DialogueShow “（西亚）你把剑给（艾伯特）吧，在这里只有他有这方面的经验。”（狼吼的声音更接近了）
+NameShow 西亚
+DialogueShow “来不及了！接住！”（抛剑）
+NameShow 玩家
+DialogueShow （【剑的名字】！）【原本呈抛物线的剑，突然飞到了主角的手中】【（小孩子头上一堆感叹号！】（狼群进入。小孩子躲在墓碑后）
+DialogueShow （不能让这群野兽伤害到这群小孩子！）（玩家从空中悬浮状态对狼群进行跳劈。劈死前半部分一批集群着的狼）
+DialogueShow （这是我的职责！）【思考一个酷一点的pose？言语？】（跟后半部分的零散的狼进入常规战斗） 
+ClossDialogueBox
+ExitStory

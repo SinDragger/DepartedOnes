@@ -1,0 +1,815 @@
+<?xml version="1.0"?>
+<data>
+<EquipData name="Wolf_Tail_1">
+<equipPositionName>WOLF_Tail</equipPositionName>
+<equipTexPath>Wolf_Tail_1</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="Wolf_Tail_Bone">
+<equipPositionName>WOLF_Tail</equipPositionName>
+<equipTexPath>Wolf_Tail_Bone</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="Wolf_Mouthup_1">
+<equipPositionName>WOLF_MOUTH_UP</equipPositionName>
+<equipTexPath>Wolf_Mouthup_1</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="Wolf_Mouthdown_1">
+<equipPositionName>WOLF_MOUTH_UP</equipPositionName>
+<equipTexPath>Wolf_Mouthdown_1</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="Child_Eyes_1">
+<equipPositionName>EYES</equipPositionName>
+<equipTexPath>Child_Eyes_1</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>-2,-3</posDelta>
+<rotDelta>4</rotDelta>
+</EquipData>
+<EquipData name="Child_Hair_1">
+<equipPositionName>HAIR</equipPositionName>
+<equipTexPath>Child_Hair_1</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>8,-11</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="Child_Mouse_1">
+<equipPositionName>MOUTH</equipPositionName>
+<equipTexPath>Child_Mouse_1</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>-4,-3</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="Child_Face_1">
+<equipPositionName>HEAD</equipPositionName>
+<equipTexPath>Child_Face_1</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>3</rotDelta>
+</EquipData>
+<EquipData name="Child_RightArm_1">
+<equipPositionName>BODY_RIGHT_SHOULDER</equipPositionName>
+<equipTexPath>Child_RightArm_1</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>-8,-10</posDelta>
+<rotDelta>112</rotDelta>
+</EquipData>
+<EquipData name="Child_Body_1">
+<equipPositionName>CLOTHE</equipPositionName>
+<equipTexPath>Child_Body_1</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,13</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="Child_Body_2">
+<equipPositionName>CLOTHE</equipPositionName>
+<equipTexPath>Child_Body_2</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,9</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="Child_RightFrontArm_1">
+<equipPositionName>BODY_RIGHT_FRONT_ARM</equipPositionName>
+<equipTexPath>Child_RightFrontArm_1</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>-6,-19</posDelta>
+<rotDelta>110</rotDelta>
+</EquipData>
+<EquipData name="Child_RightLeg_1">
+<equipPositionName>BODY_RIGHT_LEG</equipPositionName>
+<equipTexPath>Child_RightLeg_1</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,-15</posDelta>
+<rotDelta>90</rotDelta>
+</EquipData>
+<EquipData name="Child_LeftLeg_1">
+<equipPositionName>BODY_LEFT_LEG</equipPositionName>
+<equipTexPath>Child_LeftLeg_1</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>3,-18</posDelta>
+<rotDelta>75</rotDelta>
+</EquipData>
+<EquipData name="Child_LeftBackArm_1">
+<equipPositionName>BODY_LEFT_SHOULDER</equipPositionName>
+<equipTexPath>Child_LeftBackArm_1</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>3,-13</posDelta>
+<rotDelta>72</rotDelta>
+</EquipData>
+<EquipData name="Child_LeftFrontArm_1">
+<equipPositionName>BODY_LEFT_FRONT_ARM</equipPositionName>
+<equipTexPath>Child_LeftFrontArm_1</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>12,-10</posDelta>
+<rotDelta>44</rotDelta>
+</EquipData>
+<EquipData name="Child_LeftHand_1">
+<equipPositionName>BODY_HAND</equipPositionName>
+<equipTexPath>Child_LeftHand_1</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>9,-19</posDelta>
+<rotDelta>66</rotDelta>
+</EquipData>
+<EquipData name="BoneRightArm">
+<equipPositionName>BODY_RIGHT_SHOULDER</equipPositionName>
+<equipTexPath>BoneRightArm</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>-4,0</posDelta>
+<rotDelta>110</rotDelta>
+</EquipData>
+<EquipData name="BoneRightArm_Dried">
+<equipPositionName>BODY_RIGHT_SHOULDER</equipPositionName>
+<equipTexPath>BoneRightArm_Dried</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>-4,0</posDelta>
+<rotDelta>110</rotDelta>
+</EquipData>
+<EquipData name="BoneBody">
+<equipPositionName>CLOTHE</equipPositionName>
+<equipTexPath>BoneBody</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>4,2</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="BoneBody_Dried">
+<equipPositionName>CLOTHE</equipPositionName>
+<equipTexPath>BoneBody_Dried</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>4,2</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="BoneLeftArm">
+<equipPositionName>BODY_LEFT_SHOULDER</equipPositionName>
+<equipTexPath>BoneLeftArm</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,-2</posDelta>
+<rotDelta>55</rotDelta>
+</EquipData>
+<EquipData name="BoneLeftArm_Dried">
+<equipPositionName>BODY_LEFT_SHOULDER</equipPositionName>
+<equipTexPath>BoneLeftArm_Dried</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,-2</posDelta>
+<rotDelta>55</rotDelta>
+</EquipData>
+<EquipData name="BoneLeftFrontArm">
+<equipPositionName>BODY_LEFT_FRONT_ARM</equipPositionName>
+<equipTexPath>BoneLeftFrontArm</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>9,-4</posDelta>
+<rotDelta>38</rotDelta>
+</EquipData>
+<EquipData name="BoneLeftFrontArm_Dried">
+<equipPositionName>BODY_LEFT_FRONT_ARM</equipPositionName>
+<equipTexPath>BoneLeftFrontArm_Dried</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>9,-4</posDelta>
+<rotDelta>38</rotDelta>
+</EquipData>
+<EquipData name="BoneRightFrontArm">
+<equipPositionName>BODY_RIGHT_FRONT_ARM</equipPositionName>
+<equipTexPath>BoneRightFrontArm</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>-4,-8</posDelta>
+<rotDelta>105</rotDelta>
+</EquipData>
+<EquipData name="BoneRightFrontArm_Dried">
+<equipPositionName>BODY_RIGHT_FRONT_ARM</equipPositionName>
+<equipTexPath>BoneRightFrontArm_Dried</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>-4,-8</posDelta>
+<rotDelta>105</rotDelta>
+</EquipData>
+<EquipData name="BoneLeftHand">
+<equipPositionName>BODY_HAND</equipPositionName>
+<equipTexPath>BoneLeftHand</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>9,-19</posDelta>
+<rotDelta>66</rotDelta>
+</EquipData>
+<EquipData name="BoneLeftHand_Dried">
+<equipPositionName>BODY_HAND</equipPositionName>
+<equipTexPath>BoneLeftHand_Dried</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>9,-19</posDelta>
+<rotDelta>66</rotDelta>
+</EquipData>
+<EquipData name="TestHead_Undead">
+<equipPositionName>HEAD</equipPositionName>
+<equipTexPath>TestHead_Undead</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,5</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="TestHead_Undead3">
+<equipPositionName>HEAD</equipPositionName>
+<equipTexPath>TestHead_Undead3</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,5</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="Ghost_Eyes">
+<equipPositionName>EYES</equipPositionName>
+<equipTexPath>Ghost_Eyes</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>-5,-3</posDelta>
+<rotDelta>4</rotDelta>
+</EquipData>
+<EquipData name="Ghost_Face">
+<equipPositionName>HEAD</equipPositionName>
+<equipTexPath>Ghost_Face</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>3</rotDelta>
+</EquipData>
+<EquipData name="Ghost_RightArm">
+<equipPositionName>BODY_RIGHT_SHOULDER</equipPositionName>
+<equipTexPath>Ghost_RightArm</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>-8,-10</posDelta>
+<rotDelta>112</rotDelta>
+</EquipData>
+<EquipData name="Ghost_Body">
+<equipPositionName>CLOTHE</equipPositionName>
+<equipTexPath>Ghost_Body</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>1,-17</posDelta>
+<rotDelta>1</rotDelta>
+</EquipData>
+<EquipData name="Ghost_RightFrontArm">
+<equipPositionName>BODY_RIGHT_FRONT_ARM</equipPositionName>
+<equipTexPath>Ghost_RightFrontArm</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>-6,-19</posDelta>
+<rotDelta>110</rotDelta>
+</EquipData>
+<EquipData name="Ghost_LeftBackArm">
+<equipPositionName>BODY_LEFT_SHOULDER</equipPositionName>
+<equipTexPath>Ghost_LeftBackArm</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>3,-13</posDelta>
+<rotDelta>72</rotDelta>
+</EquipData>
+<EquipData name="Ghost_LeftFrontArm">
+<equipPositionName>BODY_LEFT_FRONT_ARM</equipPositionName>
+<equipTexPath>Ghost_LeftFrontArm</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>12,-10</posDelta>
+<rotDelta>44</rotDelta>
+</EquipData>
+<EquipData name="Ghost_LeftHand">
+<equipPositionName>BODY_HAND</equipPositionName>
+<equipTexPath>Ghost_LeftHand</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>9,-19</posDelta>
+<rotDelta>66</rotDelta>
+</EquipData>
+<EquipData name="FarmBody">
+<equipPositionName>CLOTHE</equipPositionName>
+<equipTexPath>FarmBody</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>4,0</posDelta>
+<rotDelta>-2</rotDelta>
+</EquipData>
+<EquipData name="DepartedOneHook">
+<equipPositionName>HEAD_BACK</equipPositionName>
+<equipTexPath>DepartedOneHook</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>-34,20</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="clear">
+<equipPositionName>CLOTHE</equipPositionName>
+<equipTexPath>clear</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="clear_Eyes">
+<equipPositionName>EYES</equipPositionName>
+<equipTexPath>clear</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="clear_Hair">
+<equipPositionName>HAIR</equipPositionName>
+<equipTexPath>clear</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="clear_Mouth">
+<equipPositionName>MOUTH</equipPositionName>
+<equipTexPath>clear</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="clear_Head">
+<equipPositionName>HEAD</equipPositionName>
+<equipTexPath>clear</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="clear_RightFrontArm">
+<equipPositionName>BODY_RIGHT_FRONT_ARM</equipPositionName>
+<equipTexPath>clear</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="clear_LeftFrontArm">
+<equipPositionName>BODY_LEFT_FRONT_ARM</equipPositionName>
+<equipTexPath>clear</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="clear_RightShoulder">
+<equipPositionName>BODY_RIGHT_SHOULDER</equipPositionName>
+<equipTexPath>clear</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="clear_LeftShoulder">
+<equipPositionName>BODY_LEFT_SHOULDER</equipPositionName>
+<equipTexPath>clear</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="clear_RightLeg">
+<equipPositionName>BODY_RIGHT_LEG</equipPositionName>
+<equipTexPath>clear</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="clear_LeftLeg">
+<equipPositionName>BODY_LEFT_LEG</equipPositionName>
+<equipTexPath>clear</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="clear_RightFeet">
+<equipPositionName>BODY_RIGHT_FEET</equipPositionName>
+<equipTexPath>clear</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="clear_LeftFeet">
+<equipPositionName>BODY_LEFT_FEET</equipPositionName>
+<equipTexPath>clear</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="clear_Hand">
+<equipPositionName>BODY_HAND</equipPositionName>
+<equipTexPath>clear</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="TestSword">
+<equipPositionName>WEAPON</equipPositionName>
+<equipTexPath>sword</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>12</rotDelta>
+</EquipData>
+<EquipData name="Sword_Broken">
+<equipPositionName>WEAPON</equipPositionName>
+<equipTexPath>Sword_Broken</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>12</rotDelta>
+</EquipData>
+<EquipData name="TestRightBackArm">
+<equipPositionName>RIGHT_BACK_ARM</equipPositionName>
+<equipTexPath>RightShoulderArmour</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="TestRightLeg">
+<equipPositionName>RIGHT_LEG</equipPositionName>
+<equipTexPath>RightLegArmour</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="TestRightLeg_Black">
+<equipPositionName>RIGHT_LEG</equipPositionName>
+<equipTexPath>RightLegArmour_Black</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="TestRightFrontArm">
+<equipPositionName>RIGHT_FRONT_ARM</equipPositionName>
+<equipTexPath>RightFrontArmArmour</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="TestRightFrontArm_Black">
+<equipPositionName>RIGHT_FRONT_ARM</equipPositionName>
+<equipTexPath>RightFrontArmArmour_Black</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="TestRightFeet">
+<equipPositionName>RIGHT_FEET</equipPositionName>
+<equipTexPath>RightFeetArmour</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="TestLeftBackArm">
+<equipPositionName>LEFT_BACK_ARM</equipPositionName>
+<equipTexPath>LeftShoulderArmour</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="TestLeftLeg">
+<equipPositionName>LEFT_LEG</equipPositionName>
+<equipTexPath>LeftLegArmour</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="TestLeftLeg_Black">
+<equipPositionName>LEFT_LEG</equipPositionName>
+<equipTexPath>LeftLegArmour_Black</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="TestLeftFrontArm">
+<equipPositionName>LEFT_FRONT_ARM</equipPositionName>
+<equipTexPath>LeftFrontArmArmour</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="TestLeftFrontArm_Black">
+<equipPositionName>LEFT_FRONT_ARM</equipPositionName>
+<equipTexPath>LeftFrontArmArmour_Black</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="TestLeftFeet">
+<equipPositionName>LEFT_FEET</equipPositionName>
+<equipTexPath>LeftFeetArmour</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="TestHeadFront">
+<equipPositionName>HEAD_FRONT</equipPositionName>
+<equipTexPath>FrontHead</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,2</posDelta>
+<rotDelta>4</rotDelta>
+</EquipData>
+<EquipData name="TestBodyFront">
+<equipPositionName>BODY_FRONT</equipPositionName>
+<equipTexPath>bodyArmour</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="TestHeadBack">
+<equipPositionName>HEAD_BACK</equipPositionName>
+<equipTexPath>BackHead</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="blade">
+<equipPositionName>WEAPON</equipPositionName>
+<equipTexPath>blade</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>5,12</posDelta>
+<rotDelta>12</rotDelta>
+</EquipData>
+<EquipData name="Test_katana">
+<equipPositionName>WEAPON</equipPositionName>
+<equipTexPath>Test_katana</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>48,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="Sword_Test2">
+<equipPositionName>WEAPON</equipPositionName>
+<equipTexPath>Sword_Test2</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>8,0</posDelta>
+<rotDelta>12</rotDelta>
+</EquipData>
+<EquipData name="Sheild_Test">
+<equipPositionName>SHIELD</equipPositionName>
+<equipTexPath>Sheild_Test</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>16,2</posDelta>
+<rotDelta>-95</rotDelta>
+</EquipData>
+<EquipData name="Sheild_Test2">
+<equipPositionName>SHIELD</equipPositionName>
+<equipTexPath>Sheild_Test2</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>12,10</posDelta>
+<rotDelta>260</rotDelta>
+</EquipData>
+<EquipData name="Eyes_Open">
+<equipPositionName>EYES</equipPositionName>
+<equipTexPath>Eyes_Open</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="Eyes_Blink">
+<equipPositionName>EYES</equipPositionName>
+<equipTexPath>Eyes_Blink</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="Sheild_Buckler">
+<equipPositionName>SHIELD</equipPositionName>
+<equipTexPath>Sheild_Buckler</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="Sheild_Buckler_Broken">
+<equipPositionName>SHIELD</equipPositionName>
+<equipTexPath>Sheild_Buckler_Broken</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>55</rotDelta>
+</EquipData>
+<EquipData name="Weapon_Axe">
+<equipPositionName>WEAPON</equipPositionName>
+<equipTexPath>Weapon_Axe</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>-20,-10</posDelta>
+<rotDelta>12</rotDelta>
+</EquipData>
+<EquipData name="Weapon_Axe_Broken">
+<equipPositionName>WEAPON</equipPositionName>
+<equipTexPath>Weapon_Axe_Broken</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>-20,-10</posDelta>
+<rotDelta>12</rotDelta>
+</EquipData>
+<EquipData name="BroneHair">
+<equipPositionName>HAIR</equipPositionName>
+<equipTexPath>BroneHair</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>9,-16</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="Hair_Women">
+<equipPositionName>HAIR</equipPositionName>
+<equipTexPath>Hair_Women</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>7,-32</posDelta>
+<rotDelta>2</rotDelta>
+</EquipData>
+<EquipData name="Armour_Front_HardArmour">
+<equipPositionName>BODY_FRONT</equipPositionName>
+<equipTexPath>Armour_Front_HardArmour</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>2,-22</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="Helmet_Hard">
+<equipPositionName>HEAD_FRONT</equipPositionName>
+<equipTexPath>Helmet_Hard</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>-4,-8</posDelta>
+<rotDelta>-3</rotDelta>
+</EquipData>
+<EquipData name="EliteCoverHelmet">
+<equipPositionName>HEAD_FRONT</equipPositionName>
+<equipTexPath>EliteCoverHelmet</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>1,-10</posDelta>
+<rotDelta>2</rotDelta>
+</EquipData>
+<EquipData name="Armour_LeftFeet_Hard">
+<equipPositionName>LEFT_FEET</equipPositionName>
+<equipTexPath>Armour_LeftFeet_Hard</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>-4,-5</posDelta>
+<rotDelta>2</rotDelta>
+</EquipData>
+<EquipData name="Armour_LeftFeet_Hard_Black">
+<equipPositionName>LEFT_FEET</equipPositionName>
+<equipTexPath>Armour_LeftFeet_Hard_Black</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>-4,-5</posDelta>
+<rotDelta>2</rotDelta>
+</EquipData>
+<EquipData name="Armour_RightFeet_Hard">
+<equipPositionName>RIGHT_FEET</equipPositionName>
+<equipTexPath>Armour_RightFeet_Hard</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>-1,-7</posDelta>
+<rotDelta>2</rotDelta>
+</EquipData>
+<EquipData name="Armour_RightFeet_Hard_Black">
+<equipPositionName>RIGHT_FEET</equipPositionName>
+<equipTexPath>Armour_RightFeet_Hard_Black</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>-1,-7</posDelta>
+<rotDelta>2</rotDelta>
+</EquipData>
+<EquipData name="Armour_LeftArm_Hard">
+<equipPositionName>LEFT_BACK_ARM</equipPositionName>
+<equipTexPath>Armour_LeftArm_Hard</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>-1,-5</posDelta>
+<rotDelta>4</rotDelta>
+</EquipData>
+<EquipData name="Armour_LeftArm_Hard_Black">
+<equipPositionName>LEFT_BACK_ARM</equipPositionName>
+<equipTexPath>Armour_LeftArm_Hard_Black</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>-1,-5</posDelta>
+<rotDelta>4</rotDelta>
+</EquipData>
+<EquipData name="Armour_RightArm_Hard">
+<equipPositionName>RIGHT_BACK_ARM</equipPositionName>
+<equipTexPath>Armour_RightArm_Hard</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>1,-5</posDelta>
+<rotDelta>8</rotDelta>
+</EquipData>
+<EquipData name="Armour_RightArm_Hard_Black">
+<equipPositionName>RIGHT_BACK_ARM</equipPositionName>
+<equipTexPath>Armour_RightArm_Hard_Black</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>2,-5</posDelta>
+<rotDelta>-8</rotDelta>
+</EquipData>
+<EquipData name="Armour_Body_Leather">
+<equipPositionName>BODY_FRONT</equipPositionName>
+<equipTexPath>Armour_Body_Leather</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,-7</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="Weapon_Stick">
+<equipPositionName>WEAPON</equipPositionName>
+<equipTexPath>Weapon_Stick</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>-39,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="Weapon_Bow">
+<equipPositionName>WEAPON</equipPositionName>
+<equipTexPath>Weapon_Bow</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>-52,-6</posDelta>
+<rotDelta>205</rotDelta>
+</EquipData>
+<EquipData name="Weapon_Arrow">
+<equipPositionName>ITEM</equipPositionName>
+<equipTexPath>Weapon_Arrow</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>69,-4</posDelta>
+<rotDelta>260</rotDelta>
+</EquipData>
+<EquipData name="Weapon_Mace">
+<equipPositionName>WEAPON</equipPositionName>
+<equipTexPath>Weapon_Mace</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>-30,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="Armour_Body_FireCloke">
+<equipPositionName>BODY_FRONT</equipPositionName>
+<equipTexPath>Armour_Body_FireCloke</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>1,-31</posDelta>
+<rotDelta>2</rotDelta>
+</EquipData>
+<EquipData name="Pike">
+<equipPositionName>SHIELD</equipPositionName>
+<equipTexPath>Pike</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>80,0</posDelta>
+<rotDelta>3</rotDelta>
+</EquipData>
+<EquipData name="Pike_Broken">
+<equipPositionName>SHIELD</equipPositionName>
+<equipTexPath>Pike_Broken</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>80,0</posDelta>
+<rotDelta>3</rotDelta>
+</EquipData>
+<EquipData name="Weapon_Fork">
+<equipPositionName>SHIELD</equipPositionName>
+<equipTexPath>Weapon_Fork</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>80,-3</posDelta>
+<rotDelta>4</rotDelta>
+</EquipData>
+<EquipData name="Armour_Front_GreenArmour">
+<equipPositionName>BODY_FRONT</equipPositionName>
+<equipTexPath>Armour_Front_GreenArmour</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>2,-4</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="TestHead_Undead2">
+<equipPositionName>HEAD</equipPositionName>
+<equipTexPath>TestHead_Undead2</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="Eyes_Blind">
+<equipPositionName>EYES</equipPositionName>
+<equipTexPath>Eyes_Blind</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="BlueFireEyes">
+<equipPositionName>EYES</equipPositionName>
+<equipTexPath>BlueFireEyes</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,1</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="FirstClothe">
+<equipPositionName>CLOTHE</equipPositionName>
+<equipTexPath>FirstClothe</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="RightShoulderClothe">
+<equipPositionName>RIGHT_BACK_ARM</equipPositionName>
+<equipTexPath>RightShoulderClothe</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>-7,2</posDelta>
+<rotDelta>-15</rotDelta>
+</EquipData>
+<EquipData name="RightShoulderClothe2">
+<equipPositionName>RIGHT_BACK_ARM</equipPositionName>
+<equipTexPath>RightShoulderClothe2</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>-5,-32</posDelta>
+<rotDelta>-20</rotDelta>
+</EquipData>
+<EquipData name="BackCloak">
+<equipPositionName>BACK_DECORATION</equipPositionName>
+<equipTexPath>BackCloak</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>-15,22</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="BloodSword">
+<equipPositionName>WEAPON</equipPositionName>
+<equipTexPath>BloodSword</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>15,0</posDelta>
+<rotDelta>17</rotDelta>
+</EquipData>
+<EquipData name="FaceBottom_Bear">
+<equipPositionName>HEAD</equipPositionName>
+<equipTexPath>FaceBottom_Bear</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>-1,0</posDelta>
+<rotDelta>0</rotDelta>
+</EquipData>
+<EquipData name="Hollow_Sword">
+<equipPositionName>WEAPON</equipPositionName>
+<equipTexPath>Hollow_Sword</equipTexPath>
+<alphaTexPath></alphaTexPath>
+<posDelta>0,0</posDelta>
+<rotDelta>12</rotDelta>
+</EquipData>
+</data>

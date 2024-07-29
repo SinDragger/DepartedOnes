@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<data>
+	<TipText name="ChallengeDifficultMode">
+		<containText>勾选时挑战将视作‘被突袭’状态
+需即时分析战局对抗敌军</containText>
+	</TipText>
+	<TipText name="Life">
+		<containText>部队中单位承受伤害的上限数值
+归零失去作战能力</containText>
+	</TipText>
+	<TipText name="DestructivePower">
+		<containText>所能造成伤害的杀伤数值
+受单位对武器的发挥影响</containText>
+	</TipText>
+	<TipText name="HitRate">
+		<containText>决定在战斗中对攻击目标造成伤害的概率</containText>
+	</TipText>
+	<TipText name="DefendLevel">
+		<containText>决定在战斗中不受到伤害的概率</containText>
+	</TipText>
+	<TipText name="WeightBearing">
+		<containText>部队中单位承受伤害的上限数值，归零则失去作战能力</containText>
+	</TipText>
+	<TipText name="Speed">
+		<containText>衡量单位在战场与地图中移动速度的数值</containText>
+	</TipText>
+	<TipText name="WeightBurden">
+		<containText>可承载的重量上限数值，关联部队资源运输量
+过重负载会影响攻击频率与移速</containText>
+	</TipText>
+	<TipText name="Damage">
+		<containText>武器所能造成的直接伤害数值
+只能等效突破1/2的防具坚韧数值</containText>
+	</TipText>
+	<TipText name="Break">
+		<containText>武器所能突破防具坚韧的数值
+只能等效造成1/2的直接伤害数值</containText>
+	</TipText>
+	<TipText name="Critical">
+		<containText>运劲爆发于一处的概率
+触发时武器效能可提升为2倍</containText>
+	</TipText>
+	<TipText name="Hardness">
+		<containText>防具生效时所能抵挡伤害的数值
+擅长对抗武器的毁伤</containText>
+	</TipText>
+	<TipText name="Resistance">
+		<containText>防具对术法的伤害减免与抵御能力</containText>
+	</TipText>
+	<TipText name="Coverage">
+		<containText>防具覆盖在身上的面积比重
+其承担攻击的基础概率</containText>
+	</TipText>
+	<TipText name="Workload">
+		<containText>完成该作业所需的总共时长单位</containText>
+	</TipText>
+	<TipText name="LabourTip">
+		<containText>当前领地可调动劳动值：10
++10 来自闲置的难民
++1 来自运作的工作</containText>
+	</TipText>
+	<TipText name="Prepare_Tip1">
+		<containText>逝亡者
+己方单位死亡时，灵魂能量+1
+每次战斗胜利时获得10点魂火，进行亡者军团唤醒</containText>
+	</TipText>
+	<TipText name="Prepare_Tip2">
+		<containText>魂之归宿
+任何单位死亡时，灵魂能量+1</containText>
+	</TipText>
+</data>

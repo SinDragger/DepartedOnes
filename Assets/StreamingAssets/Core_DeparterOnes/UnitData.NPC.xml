@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<data>
+	<UnitData name="DepartedOnes_Player">
+		<id>1</id>
+		<name>艾尔克斯</name>
+		<unitType>FIGHTER</unitType>
+		<soldierNum>1</soldierNum>
+		<ocupySize>1</ocupySize>
+		<maxLife>2</maxLife>
+		<destructivePower>24</destructivePower>
+		<hitRate>18</hitRate>
+		<defendLevel>16</defendLevel>
+		<speed>3</speed>
+		<weightBearing>30</weightBearing>
+		<weaponEquipSetId>TestSwordSheild2</weaponEquipSetId>
+		<armourEquipSetId>DepartedOnes_First</armourEquipSetId>
+		<speciesType>Hero</speciesType>
+    <statusAttachs>
+      SkeletonBody
+    </statusAttachs>
+    <castableSpells>
+		RaiseCorpse
+		CreateMud
+		<!--      
+		FireExplosion
+		-->
+	</castableSpells>
+	</UnitData>
+	<UnitData name="Child_1">
+		<name>艾伯特</name>
+		<ocupySize>0.7</ocupySize>
+		<maxLife>10</maxLife>
+		<weaponEquipSetId>BareHand</weaponEquipSetId>
+		<armourEquipSetId>NPC_Child_1</armourEquipSetId>
+		<speciesType>Human</speciesType>
+	</UnitData>
+	<UnitData name="SkeletonTest">
+		<name>艾伯特</name>
+		<ocupySize>0.7</ocupySize>
+		<maxLife>10</maxLife>
+		<weaponEquipSetId>BareHand</weaponEquipSetId>
+		<armourEquipSetId>NPC_Skeleton</armourEquipSetId>
+		<speciesType>Human</speciesType>
+	</UnitData>
+</data>

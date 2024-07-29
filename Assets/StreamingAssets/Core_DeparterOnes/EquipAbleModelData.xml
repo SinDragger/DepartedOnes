@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<data>
+	<EquipAbleModelData name="Model_A_HumanMelee">
+		<baseSpeciesName>Human</baseSpeciesName>
+		<spineResName>FS_White</spineResName>
+		<idleMotionName_Melee>Idle</idleMotionName_Melee>
+		<attackMotionName_Melee>Attack</attackMotionName_Melee>
+		<extraAttackMotionName_Melee>
+			Attack_Hit
+			Attack_Stab
+			Attack_Slash
+		</extraAttackMotionName_Melee>
+		<attackMotionName_Shoot>Attack_Shoot</attackMotionName_Shoot>
+		<moveMotionName_Melee>Move</moveMotionName_Melee>
+		<idleMotionName_Polearm>Idle_Polearms</idleMotionName_Polearm>
+		<attackMotionName_Polearm>Attack_Polearms</attackMotionName_Polearm>
+		<moveMotionName_Polearm>Move_Polearms</moveMotionName_Polearm>
+		<idleMotionName_TwoHanded>Idle_TwoHanded</idleMotionName_TwoHanded>
+		<attackMotionName_TwoHanded>Attack_TwoHanded</attackMotionName_TwoHanded>
+		<moveMotionName_TwoHanded>Move_TwoHanded</moveMotionName_TwoHanded>
+		<dieMotionName>DeathBackward</dieMotionName>
+		<dieMotionSecName>DeathForward</dieMotionSecName>
+	</EquipAbleModelData>
+	<EquipAbleModelData name="Model_Beast">
+		<baseSpeciesName>Beast</baseSpeciesName>
+		<spineResName>Wolf</spineResName>
+		<idleMotionName_Melee>Idle</idleMotionName_Melee>
+		<attackMotionName_Melee>Attack</attackMotionName_Melee>
+		<moveMotionName_Melee>Run_Loop</moveMotionName_Melee>
+		<dieMotionName>Die</dieMotionName>
+	</EquipAbleModelData>
+	<EquipAbleModelData name="Model_SkeletonWolf">
+		<targetModelName>Model_Beast</targetModelName>
+		<baseSpeciesName>SkeletonBeast</baseSpeciesName>
+		<spineResName>SkeletonWolf</spineResName>
+		<idleMotionName_Melee>Idle</idleMotionName_Melee>
+		<attackMotionName_Melee>Attack</attackMotionName_Melee>
+		<moveMotionName_Melee>Run_Loop</moveMotionName_Melee>
+		<dieMotionName>Die</dieMotionName>
+	</EquipAbleModelData>
+</data>

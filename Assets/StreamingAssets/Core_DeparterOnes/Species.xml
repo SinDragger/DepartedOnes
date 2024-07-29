@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<data>
+	<Species name="HumanoidEquip">
+		<name>中型类人装备</name>
+		<baseModelSet>Model_A_HumanMelee</baseModelSet>
+		<additionModelSet>Equip</additionModelSet>
+	</Species>
+	<Species name="Human">
+		<name>人类</name>
+		<baseModelSet>Model_A_HumanMelee</baseModelSet>
+		<basicMaxLife>20</basicMaxLife>
+		<basicDestructivePower>10</basicDestructivePower>
+		<basicHitRate>10</basicHitRate>
+		<basicDefendLevel>10</basicDefendLevel>
+		<basicSpeed>1.0</basicSpeed>
+		<basicWeightBearing>20</basicWeightBearing>
+		50
+		<basicWorkAbility>1</basicWorkAbility>
+		<basicMorale>50</basicMorale>
+	</Species>
+	<Species name="Beast">
+		<name>野兽</name>
+		<basicMaxLife>30</basicMaxLife>
+		<basicDestructivePower>10</basicDestructivePower>
+		<basicHitRate>14</basicHitRate>
+		<basicDefendLevel>12</basicDefendLevel>
+		<basicSpeed>1.0</basicSpeed>
+		<basicWeightBearing>30</basicWeightBearing>
+		<basicWorkAbility>1</basicWorkAbility>
+		<basicMorale>30</basicMorale>
+	</Species>
+	<Species name="SkeletonBeast">
+		<name>骨兽</name>
+		<basicMaxLife>30</basicMaxLife>
+		<basicMorale>30</basicMorale>
+	</Species>
+	<Species name="Skeleton">
+		<name>骷髅</name>
+		<baseModelSet>Model_A_HumanMelee</baseModelSet>
+		<additionModelSet>Skeleton</additionModelSet>
+		<basicMaxLife>16</basicMaxLife>
+		<basicDestructivePower>6</basicDestructivePower>
+		<basicHitRate>10</basicHitRate>
+		<basicDefendLevel>9</basicDefendLevel>
+		<basicSpeed>1.1</basicSpeed>
+		<basicWeightBearing>15</basicWeightBearing>
+		<basicWorkAbility>1</basicWorkAbility>
+		<statusAttachs>
+			SkeletonBody
+		</statusAttachs>
+		<cost>
+			<EntityStack>
+				<idName>BONE</idName>
+				<num>5</num>
+			</EntityStack>
+		</cost>
+	</Species>
+	<Species name="Ghost">
+		<name>幽魂</name>
+		<basicMaxLife>10</basicMaxLife>
+		<additionModelSet>Ghost</additionModelSet>
+	</Species>
+	<Species name="Zombie">
+		<name>僵尸</name>
+		<baseModelSet>Model_A_HumanMelee</baseModelSet>
+		<additionModelSet>Zombie</additionModelSet>
+		<basicMaxLife>40</basicMaxLife>
+		<basicDestructivePower>12</basicDestructivePower>
+		<basicHitRate>9</basicHitRate>
+		<basicDefendLevel>7</basicDefendLevel>
+		<basicSpeed>0.7</basicSpeed>
+		<basicWeightBearing>30</basicWeightBearing>
+		<basicWorkAbility>1</basicWorkAbility>
+		<statusAttachs>
+			ZombieDullness
+		</statusAttachs>
+	</Species>
+</data>

@@ -1,0 +1,357 @@
+<?xml version="1.0"?>
+<data>
+	<StandardStatus name="EnergyRestore">
+		<needHide>999</needHide>
+		<name>能量回复</name>
+		<continousEffect>
+			<EnergyRecoverEffectTerm></EnergyRecoverEffectTerm>
+		</continousEffect>
+	</StandardStatus>
+	<StandardStatus name="SoulHome">
+		<name>魂之归宿</name>
+		<continousEffect>
+			<ResChangingEffectTerm>
+				<resName>SoulPoint</resName>
+				<changeRate>10.0</changeRate>
+			</ResChangingEffectTerm>
+		</continousEffect>
+	</StandardStatus>
+	<StandardStatus name="SkeletonBody">
+		<name>骸骨亡者</name>
+		<describe>整副躯骸由骨架构成，可忽视部分箭矢的打击。</describe>
+		<effectDescribe>50%概率完全闪避普通远程攻击</effectDescribe>
+		<activeEffect>
+			<RangeAttackProtectPercentEffect>
+				<percent>50.0</percent>
+			</RangeAttackProtectPercentEffect>
+		</activeEffect>
+	</StandardStatus>
+	<StandardStatus name="SkeletonDried">
+		<name>破碎重组</name>
+		<describe>碎骨组成的骷髅身躯，可轻易重组。</describe>
+		<effectDescribe>亡者复生该单位所需灵魂能量-1</effectDescribe>
+		<ableCondition>
+			<TechCondition>
+				<techIdName>SkeletonDried</techIdName>
+			</TechCondition>
+		</ableCondition>
+		<activeEffect>
+			<SoldierDeathResourceGainEffect>
+			</SoldierDeathResourceGainEffect>
+		</activeEffect>
+	</StandardStatus>
+	<StandardStatus name="SkeletonDamageReflect">
+		<name>碎骨飞溅</name>
+		<describe>被击碎时的身躯残片会完成复仇</describe>
+		<effectDescribe>被近战伤害时，攻击者受到一次反击（5点伤害）</effectDescribe>
+		<ableCondition>
+			<TechCondition>
+				<techIdName>SkeletonDamageReflect</techIdName>
+			</TechCondition>
+		</ableCondition>
+		<activeEffect>
+			<DamageDieReflectEffect>
+				<damage>5</damage>
+			</DamageDieReflectEffect>
+		</activeEffect>
+	</StandardStatus>
+	<StandardStatus name="ZombieDullness">
+		<name>迟钝僵硬</name>
+		<describe>迟钝到无法很好完成进行大部分行为，也包括死亡</describe>
+		<effectDescribe>死亡时延迟死亡10s。禁止远程攻击，禁止施法</effectDescribe>
+		<activeEffect>
+			<DisableRemoteEffect></DisableRemoteEffect>
+			<DelayDeathEffect></DelayDeathEffect>
+		</activeEffect>
+	</StandardStatus>
+	<StandardStatus name="GhostFloat">
+		<name>漂浮穿行</name>
+		<describe>幽魂漂浮在地形之上</describe>
+		<effectDescribe>无视地形障碍</effectDescribe>
+		<activeEffect>
+			<StateAttachEffect>
+				<targetIdName>Status.TerrainProof</targetIdName>
+			</StateAttachEffect>
+		</activeEffect>
+	</StandardStatus>
+	<StandardStatus name="ScatteredSoul">
+		<name>散聚魂型</name>
+		<describe>不稳定的灵魂形体</describe>
+		<effectDescribe>每场战斗单位免费亡者复生1次</effectDescribe>
+		<ableCondition>
+			<TechCondition>
+				<techIdName>ScatteredSoul</techIdName>
+			</TechCondition>
+		</ableCondition>
+		<activeEffect>
+			<ResurrectionEffect>
+				<maxAutoTime>1</maxAutoTime>
+				<waitTime>0.5</waitTime>
+			</ResurrectionEffect>
+		</activeEffect>
+	</StandardStatus>
+	<StandardStatus name="InterspersedTrounce">
+		<name>穿插痛击</name>
+		<describe>游走包抄敌人的弱点</describe>
+		<effectDescribe>围攻其他部队时，攻击+4</effectDescribe>
+		<ableCondition>
+			<TechCondition>
+				<techIdName>InterspersedTrounce</techIdName>
+			</TechCondition>
+		</ableCondition>
+		<activeEffect>
+			<CommandAttachEffect>
+				<targetIdName>Status.InterspersedTrounce</targetIdName>
+			</CommandAttachEffect>
+		</activeEffect>
+	</StandardStatus>
+	<StandardStatus name="ResistFlank">
+		<name>抵御围攻</name>
+		<describe>精湛的战技可同时应对多方敌人</describe>
+		<effectDescribe>免疫围攻</effectDescribe>
+		<type>COMMAND_STATUS</type>
+		<activeEffect>
+			<CommandAttachEffect>
+				<targetIdName>Status.ResistFlank</targetIdName>
+			</CommandAttachEffect>
+		</activeEffect>
+	</StandardStatus>
+	<StandardStatus name="BattleFuror">
+		<name>战斗狂热</name>
+		<describe>危险的处境会使他们意志高昂，作战凶狠</describe>
+		<effectDescribe>被围攻时获得全属性上升</effectDescribe>
+		<type>COMMAND_STATUS</type>
+		<ableCondition>
+			<TechCondition>
+				<techIdName>BattleFuror</techIdName>
+			</TechCondition>
+		</ableCondition>
+		<activeEffect>
+			<CommandAttachEffect>
+				<targetIdName>Status.BattleFuror</targetIdName>
+			</CommandAttachEffect>
+		</activeEffect>
+	</StandardStatus>
+
+	<StandardStatus name="RevengeAnger">
+		<name>复仇怒意</name>
+		<describe>单位的损伤将会</describe>
+		<effectDescribe>承受伤亡将会提升攻击（30%编制时达到+8）</effectDescribe>
+		<type>COMMAND_STATUS</type>
+		<ableCondition>
+			<TechCondition>
+				<techIdName>RevengeAnger</techIdName>
+			</TechCondition>
+		</ableCondition>
+		<activeEffect>
+			<CommandAttachEffect>
+				<targetIdName>Status.RevengeAnger</targetIdName>
+			</CommandAttachEffect>
+		</activeEffect>
+	</StandardStatus>
+
+	<StandardStatus name="ArrowRain">
+		<name>箭雨</name>
+		<describe>箭如雨下</describe>
+		<effectDescribe>持续攻击同一角色获得强化</effectDescribe>
+		<type>COMMAND_STATUS</type>
+		<ableCondition>
+			<TechCondition>
+				<techIdName>ArrowRain</techIdName>
+			</TechCondition>
+			<ContinousAttackTargetCondition>
+				<needTime>5.0</needTime>
+			</ContinousAttackTargetCondition>
+		</ableCondition>
+		<disableCondition>
+			<StopContinousShootCondition></StopContinousShootCondition>
+		</disableCondition>
+		<activeEffect>
+			<ChangeCommandAttackSpeed>
+				<speed>1.0</speed>
+			</ChangeCommandAttackSpeed>
+			<AttachSoliderParticleEffect>
+				<effectIdName>BurstEffectWhite</effectIdName>
+			</AttachSoliderParticleEffect>
+		</activeEffect>
+	</StandardStatus>
+
+	<StandardStatus name="RibArrow">
+		<name>肋骨箭矢</name>
+		<describe>削尖的肋骨 带有亡灵的寒气</describe>
+		<effectDescribe>使用骨矢弹药
+破甲值+4</effectDescribe>
+		<type>COMMAND_STATUS</type>
+		<ableCondition>
+			<TechCondition>
+				<techIdName>RibArrow</techIdName>
+			</TechCondition>
+		</ableCondition>
+		<activeEffect>
+			<ChangeArmorBreakingAttackPower>
+				<value>4</value>
+			</ChangeArmorBreakingAttackPower>
+			<ChangeAmmoPrefab>
+				<ammoName>Ammo_Bone</ammoName>
+			</ChangeAmmoPrefab>
+		</activeEffect>
+	</StandardStatus>
+
+	<StandardStatus name="FireController">
+		<name>火焰施法者</name>
+		<describe>可以施法火焰</describe>
+		<effectDescribe>每15s一波的流星火雨</effectDescribe>
+		<type>COMMAND_STATUS</type>
+		<activeEffect>
+			<SpellCasterEffect>
+				<targetType>1</targetType>
+				<spellId>FireExplosion</spellId>
+				<countDownTime>15</countDownTime>
+			</SpellCasterEffect>
+		</activeEffect>
+	</StandardStatus>
+
+	<StandardStatus name="RebirthFrenzy">
+		<name>狂暴回归</name>
+		<describe>他们带着怒火回来了</describe>
+		<effectDescribe>复生单位狂暴10s
+攻击速度+50%</effectDescribe>
+		<ableCondition>
+			<TechCondition>
+				<techIdName>RebirthFrenzy</techIdName>
+			</TechCondition>
+		</ableCondition>
+		<disableCondition>
+			<TimeCondition>
+				<time>10</time>
+			</TimeCondition>
+		</disableCondition>
+		<activeEffect>
+			<ChangeAttackSpeed>
+				<speed>0.5</speed>
+			</ChangeAttackSpeed>
+			<AttachSoliderParticleEffect>
+				<effectIdName>BurstEffectRed</effectIdName>
+			</AttachSoliderParticleEffect>
+		</activeEffect>
+	</StandardStatus>
+
+	<StandardStatus name="RebirthSpeedy">
+		<name>往生迅捷</name>
+		<describe>他们带着怒火回来了</describe>
+		<effectDescribe>复生单位提速10s
+移动速度+50%</effectDescribe>
+		<ableCondition>
+			<TechCondition>
+				<techIdName>RebirthSpeedy</techIdName>
+			</TechCondition>
+		</ableCondition>
+		<disableCondition>
+			<TimeCondition>
+				<time>10</time>
+			</TimeCondition>
+		</disableCondition>
+		<activeEffect>
+			<ChangeMoveSpeed>
+				<changePercent>0.5</changePercent>
+			</ChangeMoveSpeed>
+			<AttachSoliderParticleEffect>
+				<effectIdName>BurstEffect</effectIdName>
+			</AttachSoliderParticleEffect>
+		</activeEffect>
+	</StandardStatus>
+	<StandardStatus name="ZombieInfection">
+		<name>僵尸传染</name>
+		<describe>我们是他们的奴隶</describe>
+		<effectDescribe>杀死的单位50%复生成僵尸</effectDescribe>
+		<ableCondition>
+			<TechCondition>
+				<techIdName>ZombieInfection</techIdName>
+			</TechCondition>
+		</ableCondition>
+		<activeEffect>
+			<KillTheEnemyAndResurrect>
+				<reviveName>Zombie</reviveName>
+			</KillTheEnemyAndResurrect>
+		</activeEffect>
+	</StandardStatus>
+	<StandardStatus name="AttackSpeedHalo">
+		<name>攻速光环</name>
+		<continousEffect>
+			<AuraEffectTargets>
+				<haloSetPrefix>AttackSpeedHalo</haloSetPrefix>
+				<radius>3</radius>
+				<attachEffects>
+					AttackSpeedHalo_Attach
+				</attachEffects>
+			</AuraEffectTargets>
+		</continousEffect>
+	</StandardStatus>
+	<StandardStatus name="AttackSpeedHalo_Attach">
+		<name>攻速增加</name>
+		<ableCondition>
+			<BelongCondition>
+				<effectType>0</effectType>
+			</BelongCondition>
+		</ableCondition>
+		<activeEffect>
+			<ChangeAttackSpeed>
+				<speed>0.5</speed>
+			</ChangeAttackSpeed>
+		</activeEffect>
+	</StandardStatus>
+	<StandardStatus name="StuckMud">
+		<describe>深陷泥沼</describe>
+		<continousEffect>
+			<GridsEffectTargets>
+				<attachEffects>
+					MoveSpeedDown
+				</attachEffects>
+			</GridsEffectTargets>
+		</continousEffect>
+	</StandardStatus>
+	<StandardStatus name="MoveSpeedDown">
+		<describe>移速降低</describe>
+		<ableCondition>
+			<BelongCondition>
+				<effectType>2</effectType>
+			</BelongCondition>
+		</ableCondition>
+		<activeEffect>
+			<ChangeMoveSpeed>
+				<changePercent>-0.7</changePercent>
+			</ChangeMoveSpeed>
+		</activeEffect>
+	</StandardStatus>
+	<StandardStatus name = "BlizzardBlessing">
+		<describe>疾风祝福</describe>
+		<continousEffect>
+			<GridsEffectTargets>
+				<attachEffects>
+					AddStatus
+				</attachEffects>
+			</GridsEffectTargets>
+		</continousEffect>
+	</StandardStatus>
+	<StandardStatus name="AddStatus">
+		<describe>添加状态</describe>
+		<activeEffect>
+			<AddStatus>
+				<statusName>MoveSpeedUpPerpetual</statusName>
+			</AddStatus>
+		</activeEffect>
+	</StandardStatus>
+	<StandardStatus name="MoveSpeedUpPerpetual">
+		<describe>移速永久提升</describe>
+		<ableCondition>
+			<BelongCondition>
+				<effectType>2</effectType>
+			</BelongCondition>
+		</ableCondition>
+		<activeEffect>
+			<ChangeMoveSpeedPerpetual>
+				<changePercent>0.7</changePercent>
+			</ChangeMoveSpeedPerpetual>
+		</activeEffect>
+	</StandardStatus>
+</data>

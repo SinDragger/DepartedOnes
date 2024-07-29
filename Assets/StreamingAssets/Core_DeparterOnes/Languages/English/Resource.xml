@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<data>
+	<Resource name="WOOD">
+		<name>Wood</name>
+	</Resource>
+	<Resource name="ORE">
+		<name>Ore</name>
+	</Resource>
+	<Resource name="CRYSTAL">
+		<name>Crystal</name>
+	</Resource>
+	<Resource name="STEEL">
+		<name>Steel</name>
+	</Resource>
+</data>

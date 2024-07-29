@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<data>
+	<SubSpecies name="White_Bone_Skeleton">
+		<name>枯骨骷髅</name>
+		<maxlifeDelta>-5</maxlifeDelta>
+		<defendDelta>-2</defendDelta>
+		<speedDelta>-0.1</speedDelta>
+		<weightBearingDelta>-5</weightBearingDelta>
+		<species>Skeleton</species>
+		<replaceTextures>
+			TestHead_Undead3
+			BoneBody_Dried
+			BoneRightArm_Dried
+			BoneRightFrontArm_Dried
+			BoneLeftArm_Dried
+			BoneLeftFrontArm_Dried
+			BoneLeftHand_Dried
+		</replaceTextures>
+		<statusAttachs>
+			SkeletonDried
+		</statusAttachs>
+	</SubSpecies>
+	<SubSpecies name="Edos_Warrior">
+		<name>人类-军士</name>
+		<maxlifeDelta>5</maxlifeDelta>
+		<hitRateDelta>1</hitRateDelta>
+		<defendDelta>2</defendDelta>
+		<weightBearingDelta>10</weightBearingDelta>
+		<moraleDeviationValue>0</moraleDeviationValue>
+		<species>Human</species>
+		<replaceTextures>
+			BroneHair
+			Eyes_Blink
+			FaceBottom_Bear
+		</replaceTextures>
+	</SubSpecies>
+	<SubSpecies name="Edos_Farmer">
+		<name>农民</name>
+		<species>Human</species>
+		<replaceTextures>
+			FarmBody
+			BroneHair
+			Child_RightArm_1
+			Child_RightFrontArm_1
+			Child_LeftBackArm_1
+			Child_LeftFrontArm_1
+			Child_LeftHand_1
+		</replaceTextures>
+	</SubSpecies>
+	<SubSpecies name="Edos_Archer">
+		<name>弓手</name>
+		<species>Human</species>
+		<replaceTextures>
+			Child_RightLeg_1
+			Child_LeftLeg_1
+		</replaceTextures>
+	</SubSpecies>
+	<SubSpecies name="Edos_Veteran">
+		<name>埃铎斯精锐军士</name>
+		<species>Human</species>
+		<moraleDeviationValue>20</moraleDeviationValue>
+	</SubSpecies>
+</data>

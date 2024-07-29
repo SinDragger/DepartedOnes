@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<data>
+	<EquipData name="TestSword">
+		<equipPositionName>WEAPON</equipPositionName>
+		<minDamage>2</minDamage>
+		<maxDamage>8</maxDamage>
+	</EquipData>
+	<EquipData name="TestRightBackArm">
+		<equipPositionName>RIGHT_BACK_ARM</equipPositionName>
+	</EquipData>
+	<EquipData name="TestRightLeg">
+		<equipPositionName>RIGHT_LEG</equipPositionName>
+	</EquipData>
+	<EquipData name="TestRightFrontArm">
+		<equipPositionName>RIGHT_FRONT_ARM</equipPositionName>
+	</EquipData>
+	<EquipData name="TestRightFeet">
+		<equipPositionName>RIGHT_FEET</equipPositionName>
+	</EquipData>
+	<EquipData name="TestLeftBackArm">
+		<equipPositionName>LEFT_BACK_ARM</equipPositionName>
+	</EquipData>
+	<EquipData name="TestLeftLeg">
+		<equipPositionName>LEFT_LEG</equipPositionName>
+	</EquipData>
+	<EquipData name="TestLeftFrontArm">
+		<equipPositionName>LEFT_FRONT_ARM</equipPositionName>
+	</EquipData>
+	<EquipData name="TestLeftFeet">
+		<equipPositionName>LEFT_FEET</equipPositionName>
+	</EquipData>
+	<EquipData name="TestHeadFront">
+		<equipPositionName>HEAD_FRONT</equipPositionName>
+	</EquipData>
+	<EquipData name="TestBodyFront">
+		<equipPositionName>BODY_FRONT</equipPositionName>
+	</EquipData>
+	<EquipData name="TestHeadBack">
+		<equipPositionName>HEAD_BACK</equipPositionName>
+	</EquipData>
+	<EquipData name="blade">
+		<equipPositionName>WEAPON</equipPositionName>
+		<minDamage>4</minDamage>
+		<maxDamage>10</maxDamage>
+	</EquipData>
+	<EquipData name="Test_katana">
+		<equipPositionName>WEAPON</equipPositionName>
+		<minDamage>4</minDamage>
+		<maxDamage>16</maxDamage>
+	</EquipData>
+	<EquipData name="Sword_Test2">
+		<equipPositionName>WEAPON</equipPositionName>
+		<minDamage>10</minDamage>
+		<maxDamage>12</maxDamage>
+</EquipData>
+	<EquipData name="Sheild_Test">
+		<equipPositionName>SHIELD</equipPositionName>
+	</EquipData>
+	<EquipData name="Sheild_Test2">
+		<equipPositionName>SHIELD</equipPositionName>
+	</EquipData>
+	<EquipData name="Eyes_Open">
+		<equipPositionName>EYES</equipPositionName>
+	</EquipData>
+	<EquipData name="Weapon_Axe">
+		<equipPositionName>WEAPON</equipPositionName>
+		<minDamage>4</minDamage>
+		<maxDamage>10</maxDamage>
+	</EquipData>
+	<EquipData name="Hair_Women">
+		<equipPositionName>HAIR</equipPositionName>
+	</EquipData>
+	<EquipData name="Armour_Front_HardArmour">
+		<equipPositionName>BODY_FRONT</equipPositionName>
+	</EquipData>
+	<EquipData name="Armour_LeftFeet_Hard">
+		<equipPositionName>LEFT_FEET</equipPositionName>
+	</EquipData>
+	<EquipData name="Armour_RightFeet_Hard">
+		<equipPositionName>RIGHT_FEET</equipPositionName>
+	</EquipData>
+	<EquipData name="Armour_LeftArm_Hard">
+		<equipPositionName>LEFT_BACK_ARM</equipPositionName>
+	</EquipData>
+	<EquipData name="Armour_RightArm_Hard">
+		<equipPositionName>RIGHT_BACK_ARM</equipPositionName>
+	</EquipData>
+	<EquipData name="Armour_Body_Leather">
+		<equipPositionName>BODY_FRONT</equipPositionName>
+	</EquipData>
+	<EquipData name="Weapon_Stick">
+		<equipPositionName>WEAPON</equipPositionName>
+		<minDamage>4</minDamage>
+		<maxDamage>10</maxDamage>
+	</EquipData>
+	<EquipData name="Weapon_Bow">
+		<equipPositionName>WEAPON</equipPositionName>
+		<minDamage>4</minDamage>
+		<maxDamage>10</maxDamage>
+	</EquipData>
+	<EquipData name="Armour_Body_FireCloke">
+		<equipPositionName>BODY_FRONT</equipPositionName>
+	</EquipData>
+	<EquipData name="Pike">
+		<equipPositionName>SHIELD</equipPositionName>
+		<minDamage>4</minDamage>
+		<maxDamage>10</maxDamage>
+	</EquipData>
+	<EquipData name="Armour_Front_GreenArmour">
+		<equipPositionName>BODY_FRONT</equipPositionName>
+	</EquipData>
+	<EquipData name="TestHead_Undead">
+		<equipPositionName>HEAD</equipPositionName>
+	</EquipData>
+	<EquipData name="TestHead_Undead2">
+		<equipPositionName>HEAD</equipPositionName>
+	</EquipData>
+</data>

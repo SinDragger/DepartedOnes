@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<data>
+	<TipText name="Chapter1.Main1">
+		<containText>战士们躯壳只能坚持到此了
+不过没关系、魂灵们顺着誓约印记归于你
+你是他们的灵魂归宿</containText>
+	</TipText>
+	<TipText name="Chapter1.Main2">
+		<containText>埃铎斯施法者们精通岩石与流水的术法
+骨骼即是人之四元素中的岩石
+此前那些食人恶兽的骸骨就够为它们重赋形体了</containText>
+	</TipText>
+	<TipText name="Chapter1.Main3">
+		<containText>这些杀戮你子民的野兽一定有所巢穴定居
+它们来时的足迹深入密林深处
+小心潜藏的恶兽们、不要冒进
+尝试占据控制地区来发现它们的行踪</containText>
+	</TipText>
+	<TipText name="Chapter1.Main4">
+		<containText>干掉最后一只食人的恶兽后
+你察觉到此处原本是附近村庄中猎人们的洞窟避难所
+长期的荒废与大量肉食使得它们源源不绝
+现在不会了</containText>
+	</TipText>
+</data>

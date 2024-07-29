@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<data>
+	<EquipSetData name="NPC_Child_1">
+		<UseEquipTextures>
+			Child_Eyes_1
+			Child_Hair_1
+			Child_Mouse_1
+			Child_Face_1
+			Child_Body_2
+			Child_RightArm_1
+			Child_RightFrontArm_1
+			Child_RightLeg_1
+			Child_LeftLeg_1
+			Child_LeftBackArm_1
+			Child_LeftFrontArm_1
+			Child_LeftHand_1
+		</UseEquipTextures>
+	</EquipSetData>
+	<EquipSetData name="NPC_Skeleton">
+		<UseEquipTextures>
+			clear_Eyes
+			clear_Hair
+			clear_Mouth
+			TestHead_Undead
+			BoneBody
+			BoneRightArm
+			BoneRightFrontArm
+			Child_RightLeg_1
+			Child_LeftLeg_1
+			BoneLeftArm
+			BoneLeftFrontArm
+			BoneLeftHand
+		</UseEquipTextures>
+	</EquipSetData>
+</data>

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<data>
+	<EquipSetData name="Equip">
+		<UseEquipTextures>
+			clear_Head
+			clear_Eyes
+			clear_Hair
+			clear_Mouth
+			clear_RightFrontArm
+			clear_LeftFrontArm
+			clear_RightShoulder
+			clear_LeftShoulder
+			clear_RightLeg
+			clear_LeftLeg
+			clear_RightFeet
+			clear_LeftFeet
+			clear_Hand
+			clear
+		</UseEquipTextures>
+	</EquipSetData>
+	<EquipSetData name="Skeleton">
+		<ID>10003</ID>
+		<UseEquipTextures>
+			TestHead_Undead
+			clear_Eyes
+			clear_Hair
+			clear_Mouth
+			BoneBody
+			BoneRightArm
+			BoneRightFrontArm
+			BoneLeftArm
+			BoneLeftFrontArm
+			BoneLeftHand
+		</UseEquipTextures>
+	</EquipSetData>
+	<EquipSetData name="Zombie">
+		<SetName></SetName>
+		<TargetActionModel>MELEE</TargetActionModel>
+		<UseEquipTextures>
+			Eyes_Blind
+			TestHead_Undead2
+		</UseEquipTextures>
+	</EquipSetData>
+	<EquipSetData name="Ghost">
+		<TargetActionModel>MELEE</TargetActionModel>
+		<UseEquipTextures>
+			Ghost_Eyes
+			Ghost_Face
+			Ghost_RightArm
+			Ghost_Body
+			Ghost_RightFrontArm
+			Ghost_LeftBackArm
+			Ghost_LeftFrontArm
+			Ghost_LeftHand
+			clear_Hair
+			clear_Mouth
+			clear_RightLeg
+			clear_LeftLeg
+			clear_RightFeet
+			clear_LeftFeet
+		</UseEquipTextures>
+	</EquipSetData>
+</data>

@@ -1,0 +1,214 @@
+Characters (General_TestGeneral:DepartedOnes_Player:1),(艾伯特:TestFWizard:1),(西亚:TestMercenarySwordMan:1),(伊恩:TestPSoldier:1),(年幼的孩子:TestPeasant:1)
+Characters (普通孩子A:TestPeasant:1),(普通孩子B:TestPeasant:1),(普通孩子C:TestPeasant:1),(普通孩子D:TestPeasant:1),(普通孩子E:TestPeasant:1)
+Characters (Wolf1:DemonWolf:2),(Wolf2:DemonWolf:2),(Wolf3:DemonWolf:2)
+CloseUp
+CheckCharacter 伊恩 5,0,5 Right
+CheckCharacter 西亚 3.2,0,0 Left
+CheckCharacter 年幼的孩子 5.5,0,-5 Right
+CheckCharacter 艾伯特 10,0,3 Right
+CheckCharacter 普通孩子A 7,0,6.2 Right
+CheckCharacter 普通孩子B 9.8,0,4.1 Right
+CheckCharacter 普通孩子C 8.4,0,-2 Right
+CheckCharacter 普通孩子D 11,0,-3.5 Right
+ExecuteEvent PlayerJumpEvent
+ExitStory
+FacingRight General_TestGeneral
+LookAtCharacterImmediate 艾伯特 0,0,2
+DialogueBox 
+NameShow 艾伯特,艾伯特
+DialogueShow “得快点堵上门，狼群很快就会追上来，西亚人呢！来搭把手。”
+ClossDialogueBox 
+EmojiBox ExclamationEmotion 艾伯特
+Wait 1
+FacingLeft 艾伯特
+DialogueBox 
+NameShow 艾伯特,艾伯特
+DialogueShow “天呐！”
+DialogueShow “西亚，你都做了些什么！！！”
+ClossDialogueBox
+LookAtCharacter 西亚 -2,0,2
+Wait 0.5
+MoveCharacter 西亚 1.2,0,0
+Wait 1.2
+DialogueBox 
+NameShow 西亚,西亚
+DialogueShow “我只是想……找能派上用场的武器……”
+DialogueShow “啊，找到了！！！”
+ClossDialogueBox
+LookAtCharacter 艾伯特 0,0,2
+Wait 0.2
+DialogueBox 
+NameShow 艾伯特,艾伯特
+DialogueShow “嘘，趁他还没动作，快退后！”
+ClossDialogueBox
+CheckCharacter 普通孩子E 16,0,4 Left
+MoveCharacter 普通孩子E 11,0,2.5
+Wait 2
+FacingRight 艾伯特
+DialogueBox 
+NameShow 普通孩子E,普通孩子E
+DialogueShow “你们准备好没！”
+DialogueShow “狼冲进来啦！快把门堵上！”
+ClossDialogueBox
+CheckCharacter Wolf1 22,0,6 Left
+CheckCharacter Wolf2 23,0,5 Left
+CheckCharacter Wolf3 22,0,4 Left
+MoveCharacter Wolf1 14,0,6
+MoveCharacter Wolf2 15,0,5
+MoveCharacter Wolf3 14,0,4
+Wait 0.5
+LookAtPos 12,0,5 
+Wait 0.5
+DialogueBox 
+NameShow 艾伯特,艾伯特
+DialogueShow “我们还没来得及……”
+ClossDialogueBox
+LookAtCharacter 伊恩 0,0,2
+DialogueBox 
+NameShow 伊恩,伊恩
+DialogueShow “西亚你把剑给艾伯特吧，在这里只有他有这方面的经验。”
+ClossDialogueBox
+LookAtCharacter 西亚 2,0,2
+Wait 0.5
+FacingRight 西亚
+DialogueBox 
+NameShow 西亚,西亚
+DialogueShow “来不及了！接住！”
+ClossDialogueBox
+FacingLeft 艾伯特
+ExecuteEvent StillSword
+Wait 2
+WaitForKeyUp F //需要激活一个提示按键的UI
+ExecuteEvent CollSword
+Wait 0.1
+LookAtCharacter General_TestGeneral 0,0,2
+DialogueBox 
+NameShow General_TestGeneral,四王子 
+DialogueShow “剑来”
+ClossDialogueBox
+ExecuteEvent PlayerJumpEvent
+Wait 2
+RestoreFOV
+Wait 0.8
+ExitStory
+
+
+
+FacingRight 西亚,伊恩,年幼的孩子
+MoveCharacter 艾伯特 8,0,3
+MoveCharacter 伊恩 6.5,0,3
+EmojiBox QuestionEmo General_TestGeneral
+Wait 1
+DialogueBox 
+NameShow General_TestGeneral,???
+DialogueShow （亡灵？我？尸骸？…）
+ClossDialogueBox
+EmojiBox CryEmotion 年幼的孩子 
+Wait 1
+DialogueBox 
+NameShow 年幼的孩子,年幼的孩子
+DialogueShow “外面有狼，里面又出这事儿…我们要死掉啦！”
+NameShow 普通孩子C,普通孩子C
+DialogueShow “所以就不该来墓穴避难啊！”
+NameShow 艾伯特,艾伯特
+DialogueShow “这是我们能找到最好的庇护地了……快点所有人躲在我的身后！”
+ClossDialogueBox
+CheckCharacter 普通孩子E 15,0,4 Left
+MoveCharacter 普通孩子E 10,0,3
+Wait 1.8
+DialogueBox 
+NameShow 普通孩子E,普通孩子E
+DialogueShow “狼冲进来啦！！！你们准备好没！快把门堵上！”
+FacingRight 伊恩,艾伯特,年幼的孩子,普通孩子A,普通孩子B,普通孩子C,普通孩子D
+ClossDialogueBox
+CheckCharacter Wolf1 22,0,6 Left
+CheckCharacter Wolf2 23,0,5 Left
+CheckCharacter Wolf3 22,0,4 Left
+MoveCharacter Wolf1 14,0,6
+MoveCharacter Wolf2 15,0,5
+MoveCharacter Wolf3 14,0,4
+DialogueBox
+NameShow 艾伯特,艾伯特
+DialogueShow “我们还没来得及……”
+ClossDialogueBox
+EmojiBox ExclamationEmotion 伊恩
+Wait 1
+FacingLeft 伊恩
+DialogueBox 
+NameShow 伊恩,伊恩
+DialogueShow “西亚你把剑给艾伯特吧，在这里只有他有这方面的经验。”
+NameShow 西亚,西亚
+DialogueShow “来不及了！接住！”
+DialogueShow 播放动画
+NameShow General_TestGeneral,???
+DialogueShow “霜栽商！(剑名)”
+ClossDialogueBox
+EmojiBox ExclamationEmotion 伊恩,艾伯特,年幼的孩子,普通孩子A,普通孩子B,普通孩子C,普通孩子D,西亚,普通孩子E
+Wait 1
+FacingLeft 伊恩,艾伯特,年幼的孩子,普通孩子A,普通孩子B,普通孩子C,普通孩子D,西亚,普通孩子E
+MoveCharacter 伊恩 1.8,0,7
+MoveCharacter 艾伯特 2.45,0,5.2
+MoveCharacter 年幼的孩子 0.3,0,-8
+MoveCharacter 普通孩子A 2.85,0,9
+MoveCharacter 普通孩子B 6.5,0,7
+MoveCharacter 普通孩子C 2.3,0,-7
+MoveCharacter 普通孩子D 5.4,0,-6.3
+MoveCharacter 普通孩子E 0.85,0,4.15
+MoveCharacter 西亚 -1.25,0,2.47
+Wait 3.5
+DialogueBox 
+NameShow General_TestGeneral,???
+DialogueShow （不能让这群野兽伤害到这群小孩子！）
+ClossDialogueBox
+ExitStory
+
+
+
+DialogueBox 
+NameShow General_TestGeneral,玩家
+DialogueShow （【剑的名字】！）【原本呈抛物线的剑，突然飞到了主角的手中】【（小孩子头上一堆感叹号！】（狼群进入。小孩子躲在墓碑后）
+DialogueShow （不能让这群野兽伤害到这群小孩子！）（玩家从空中悬浮状态对狼群进行跳劈。劈死前半部分一批集群着的狼）
+DialogueShow （这是我的职责！）【思考一个酷一点的pose？言语？】（跟后半部分的零散的狼进入常规战斗） 
+ClossDialogueBox
+Wait 1
+Battle Wolf1
+MonitoringBattle
+DialogueBox 
+NameShow 艾伯特,艾伯特
+DialogueShow “得快点堵上门，狼群很快就会追上来，西亚人呢！来搭把手。”（发现大家没人回应有些疑惑了，看向后方）【头上先冒问号，随后翻转模型，人物跳动一下，冒感叹号。】
+ClossDialogueBox 
+
+
+EmojiBox 艾伯特,ExclamationEmotion
+Wait 1.2
+DialogueBox 
+NameShow 艾伯特,艾伯特
+DialogueShow “西亚，你都做了些什么！！！”（震惊-略带责怪）
+NameShow 西亚,西亚
+DialogueShow “我只是想……找能派上用场的武器……啊，找到了.”（震惊-下意识反驳，模型持剑）
+NameShow 艾伯特,艾伯特
+DialogueShow “嘘，趁他还没动作，快退后！”【西亚辉剑作威胁状后退（待定），其他小朋友开始慢慢远离玩家】
+NameShow 伊恩,伊恩
+DialogueShow “是亡灵。可、根据周围的石碑来看，这还是四王子的尸骸啊……天呐”（一遍翻包一边匆忙地解释）
+NameShow General_TestGeneral,玩家
+DialogueShow （亡灵？我？尸骸？…）【玩家头上冒问号】
+NameShow 年幼的孩子,年幼的孩子
+DialogueShow “外面有狼，里面又出这事儿…我们要死掉啦！”（哇的一声大哭）【其他小朋友也有些慌乱。】
+NameShow 普通孩子A,普通孩子A
+DialogueShow “所以就不该来墓穴避难啊！”
+NameShow 艾伯特,艾伯特
+DialogueShow “这是我们能找到最好的庇护地了……快点所有人躲在我的身后！”【年长者挡在前面，随后其他人躲在他身后】（从后面传出狼的低吼）
+NameShow 普通孩子C,普通孩子C
+DialogueShow “狼冲进来啦！！！你们准备好没！快把门堵上！”（冲进来后，慌张害怕）·
+NameShow 艾伯特,艾伯特
+DialogueShow “我们还没来得及……”（手里拿着木棍，回头看到西亚手里的剑，）
+NameShow 伊恩,伊恩
+DialogueShow “（西亚）你把剑给（艾伯特）吧，在这里只有他有这方面的经验。”（狼吼的声音更接近了）
+NameShow 西亚,西亚
+DialogueShow “来不及了！接住！”（抛剑）
+NameShow General_TestGeneral,玩家
+DialogueShow （【剑的名字】！）【原本呈抛物线的剑，突然飞到了主角的手中】【（小孩子头上一堆感叹号！】（狼群进入。小孩子躲在墓碑后）
+DialogueShow （不能让这群野兽伤害到这群小孩子！）（玩家从空中悬浮状态对狼群进行跳劈。劈死前半部分一批集群着的狼）
+DialogueShow （这是我的职责！）【思考一个酷一点的pose？言语？】（跟后半部分的零散的狼进入常规战斗） 
+ClossDialogueBox
+ExitStory

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<data>
+	<EquipData name="Hollow_Sword">
+		<equipPositionName>WEAPON</equipPositionName>
+		<equipTexPath>Hollow_Sword</equipTexPath>
+		<alphaTexPath></alphaTexPath>
+		<posDelta>0,0</posDelta>
+		<rotDelta>12</rotDelta>
+	</EquipData>
+</data>

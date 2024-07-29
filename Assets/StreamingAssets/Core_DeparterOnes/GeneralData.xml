@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<data>
+	<GeneralData name="TestGeneral">
+		<unitType>DepartedOnes_Player</unitType>
+		<headIconTexIdName>TestMain_HeadIcon</headIconTexIdName>
+		<speciesType>Human</speciesType>
+		<maxEnergy>100</maxEnergy>
+		<statusAttachs>
+			AttackSpeedHalo
+		</statusAttachs>
+		<selfStatusAttachs>
+			EnergyRestore
+			SoulHome
+		</selfStatusAttachs>
+		<skillIdNames>
+			Charge
+			LeapSlash
+			RaiseAll
+		</skillIdNames>
+	</GeneralData>
+</data>

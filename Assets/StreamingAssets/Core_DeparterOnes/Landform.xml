@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<data>
+	<Landform name="PLAIN">
+		<name>平原</name>
+		<color>#A79665</color>
+	</Landform>
+	<Landform name="MUDGROUND">
+		<name>泥地</name>
+		<color>#7E5B2E</color>
+	</Landform>
+	<Landform name="FOREST">
+		<name>森林</name>
+		<color>#0F872C</color>
+	</Landform>
+	<Landform name="HILL">
+		<name>丘陵</name>
+		<color>#899073</color>
+	</Landform>
+	<Landform name="MOUNTAIN">
+		<name>山地</name>
+		<color>#5F6567</color>
+	</Landform>
+	<Landform name="CITY">
+		<name>城镇</name>
+		<color>#7D7E7C</color>
+	</Landform>
+	<Landform name="SWAMP">
+		<name>沼泽</name>
+		<color>#564672</color>
+	</Landform>
+	<Landform name="DESERT">
+		<name>荒漠</name>
+		<color>#AB6528</color>
+	</Landform>
+</data>
